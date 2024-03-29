@@ -1,0 +1,17 @@
+Miei Appunti per FlatPanel by Alberto Duina
+
+Scopo della selezione macchina:
+ricavare dal file FlatConfig.csv i dati per interpretare corretamente le immagini RAW
+Infatti, non essendo immagini DICOM, sta a noi trovarne i dati relativi a:
+
+Width	
+Height	
+Offset	
+Little Endian	
+DimPixel (um)
+
+Infatti, impostando i dati corretti, ImageJ riesce ad importare correttamente l'immagine raw.
+
+
+
+

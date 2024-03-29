@@ -1,0 +1,18 @@
+# Name:
+# Author: 
+# Version: 1.0
+# Date: 2021/12/06
+# Requires: ImageJ 1.42q
+# Generate the jar file using: "jar cvfM jar_demo.jar *"
+#
+# Questo file assicura che ImageJ ci mostri i file, contenuti nel file jar, nel meu plugins
+#
+
+
+
+Plugins>FlatPanel, "0 FlatPanel Completo", PluginFlatPanel.Tutti
+Plugins>FlatPanel, "00 Selezione Macchina", PluginFlatPanel.SelezioneMacchina
+Plugins>FlatPanel, "1 Funzione conversione", PluginFlatPanel.FunzioneConversione
+Plugins>FlatPanel, "2 Bad Pixel", PluginFlatPanel.BadPixel
+Plugins>FlatPanel, "3 DrRaw", PluginFlatPanel.DrRaw
+Plugins>FlatPanel, "3 DrRaw_NUOVO", PluginFlatPanel.DrRaw_NUOVO
